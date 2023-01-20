@@ -1,61 +1,37 @@
 ﻿  Player.cpp
 C:\Users\riche\OneDrive\Desktop\s233122\BCPPGP\Zombie Arena\Player.cpp(6,13): warning C4244: '=': conversion from 'const float' to 'int', possible loss of data
 C:\Users\riche\OneDrive\Desktop\s233122\BCPPGP\Zombie Arena\Player.cpp(7,16): warning C4244: '=': conversion from 'const float' to 'int', possible loss of data
-C:\Users\riche\OneDrive\Desktop\s233122\BCPPGP\Zombie Arena\Player.cpp(20,29): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+C:\Users\riche\OneDrive\Desktop\s233122\BCPPGP\Zombie Arena\Player.cpp(22,29): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\riche\OneDrive\Desktop\s233122\BCPPGP\Zombie Arena\Player.cpp(21,30): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+C:\Users\riche\OneDrive\Desktop\s233122\BCPPGP\Zombie Arena\Player.cpp(23,30): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\riche\OneDrive\Desktop\s233122\BCPPGP\Zombie Arena\Player.cpp(40,12): warning C4244: '=': conversion from 'const float' to 'int', possible loss of data
-C:\Users\riche\OneDrive\Desktop\s233122\BCPPGP\Zombie Arena\Player.cpp(41,15): warning C4244: '=': conversion from 'const float' to 'int', possible loss of data
-C:\Users\riche\OneDrive\Desktop\s233122\BCPPGP\Zombie Arena\Player.cpp(149,32): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+C:\Users\riche\OneDrive\Desktop\s233122\BCPPGP\Zombie Arena\Player.cpp(155,32): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\riche\OneDrive\Desktop\s233122\BCPPGP\Zombie Arena\Player.cpp(153,31): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+C:\Users\riche\OneDrive\Desktop\s233122\BCPPGP\Zombie Arena\Player.cpp(160,31): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\riche\OneDrive\Desktop\s233122\BCPPGP\Zombie Arena\Player.cpp(157,33): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+C:\Users\riche\OneDrive\Desktop\s233122\BCPPGP\Zombie Arena\Player.cpp(165,33): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\riche\OneDrive\Desktop\s233122\BCPPGP\Zombie Arena\Player.cpp(161,30): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+C:\Users\riche\OneDrive\Desktop\s233122\BCPPGP\Zombie Arena\Player.cpp(170,30): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\riche\OneDrive\Desktop\s233122\BCPPGP\Zombie Arena\Player.cpp(165,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\riche\OneDrive\Desktop\s233122\BCPPGP\Zombie Arena\Player.cpp(173,31): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
-C:\Users\riche\OneDrive\Desktop\s233122\BCPPGP\Zombie Arena\Player.cpp(179,36): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
-  Zombie Arena.cpp
-C:\Users\riche\OneDrive\Desktop\s233122\BCPPGP\Zombie Arena\Zombie Arena.cpp(17,44): warning C4244: '=': conversion from 'unsigned int' to 'T', possible loss of data
-          with
-          [
-              T=float
-          ]
-C:\Users\riche\OneDrive\Desktop\s233122\BCPPGP\Zombie Arena\Zombie Arena.cpp(18,44): warning C4244: '=': conversion from 'unsigned int' to 'T', possible loss of data
-          with
-          [
-              T=float
-          ]
-C:\Users\riche\OneDrive\Desktop\s233122\BCPPGP\Zombie Arena\Zombie Arena.cpp(20,56): warning C4244: 'argument': conversion from 'T' to 'unsigned int', possible loss of data
-          with
-          [
-              T=float
-          ]
-C:\Users\riche\OneDrive\Desktop\s233122\BCPPGP\Zombie Arena\Zombie Arena.cpp(20,42): warning C4244: 'argument': conversion from 'T' to 'unsigned int', possible loss of data
-          with
-          [
-              T=float
-          ]
-  Generating Code...
+C:\Users\riche\OneDrive\Desktop\s233122\BCPPGP\Zombie Arena\Player.cpp(174,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\riche\OneDrive\Desktop\s233122\BCPPGP\Zombie Arena\Player.cpp(184,31): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\riche\OneDrive\Desktop\s233122\BCPPGP\Zombie Arena\Player.cpp(190,36): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
   Zombie Arena.vcxproj -> C:\Users\riche\OneDrive\Desktop\s233122\BCPPGP\Zombie Arena\Debug\Zombie Arena.exe
