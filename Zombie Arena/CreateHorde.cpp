@@ -1,5 +1,5 @@
-#include "Zombie.h"
 #include "ZombieArena.h"
+#include "Zombie.h"
 
 Zombie* createHorde(int numZombies, IntRect arena)
 {
@@ -12,6 +12,7 @@ Zombie* createHorde(int numZombies, IntRect arena)
 
 	for (int i = 0; i < numZombies; i++)
 	{
+
 		// Which side should the zombie spawn
 		srand((int)time(0) * i);
 		int side = (rand() % 4);
@@ -24,18 +25,21 @@ Zombie* createHorde(int numZombies, IntRect arena)
 			x = minX;
 			y = (rand() % maxY) + minY;
 			break;
+
 		case 1:
-			// Right
+			// right
 			x = maxX;
 			y = (rand() % maxY) + minY;
 			break;
+
 		case 2:
-			// Top
+			// top
 			x = (rand() % maxX) + minX;
 			y = minY;
 			break;
+
 		case 3:
-			// Bottom
+			// bottom
 			x = (rand() % maxX) + minX;
 			y = maxY;
 			break;
@@ -47,6 +51,7 @@ Zombie* createHorde(int numZombies, IntRect arena)
 
 		// Spawn the new zombie into the array
 		zombies[i].spawn(x, y, type, i);
+
 	}
 	return zombies;
 }

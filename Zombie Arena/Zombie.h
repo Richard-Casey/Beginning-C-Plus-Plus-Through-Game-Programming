@@ -11,7 +11,7 @@ private:
 	const float CHASER_SPEED = 80;
 	const float CRAWLER_SPEED = 20;
 
-	// How tough is eaach zonbie type?
+	// How tough is each zombie type
 	const float BLOATER_HEALTH = 5;
 	const float CHASER_HEALTH = 1;
 	const float CRAWLER_HEALTH = 3;
@@ -20,10 +20,10 @@ private:
 	const int MAX_VARRIANCE = 30;
 	const int OFFSET = 101 - MAX_VARRIANCE;
 
-	// Where is the zombie?
+	// Where is this zombie?
 	Vector2f m_Position;
 
-	// A Sprite for thew zombie
+	// A sprite for the zombie
 	Sprite m_Sprite;
 
 	// How fast can this one run/crawl?
@@ -32,10 +32,10 @@ private:
 	// How much health has it got?
 	float m_Health;
 
-	// IS it still alive?
+	// Is it still alive?
 	bool m_Alive;
 
-	// Public prototypes go here
+	// Public prototypes go here	
 public:
 
 	// Handle when a bullet hits a zombie
@@ -50,9 +50,11 @@ public:
 	// Return a rectangle that is the position in the world
 	FloatRect getPosition();
 
-	// Get a copy of the sprite
+	// Get a copy of the sprite to draw
 	Sprite getSprite();
 
 	// Update the zombie each frame
 	void update(float elapsedTime, Vector2f playerLocation);
 };
+
+
